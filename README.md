@@ -26,13 +26,21 @@ Der Dateiexperte hilft Ihnen dabei, Ordnung in Ihren Ordnern zu schaffen. Sie k�
 * **Konfigurationsdatei:** Speichert alle Einstellungen in einer lesbaren `sorter_config.json`-Datei.
 * **Plattformunabhängigkeit:** Entwickelt mit Python und Tkinter, sollte auf den meisten Systemen (Linux, Windows, macOS) laufen (getestet unter Linux/Windows).
 
-## Screenshots (Platzhalter)
+## Screenshots
 
-*Hier könntest du Screenshots einfügen, um die Anwendung zu visualisieren.*
+![Hauptfenster Dateiexperte](img/Screenshot_Hauptfenster.png)
+*Das Hauptfenster der Anwendung.*
 
-* *(Platzhalter für Screenshot des Hauptfensters)*
-* *(Platzhalter für Screenshot des Einstellungs-Editors - Kategorie-Tab)*
-* *(Platzhalter für Screenshot des Einstellungs-Editors - Ausschlüsse-Tab)*
-* *(Platzhalter für Screenshot des Datei-Info-Fensters)*
+![Einstellungsfenster - Kategorien Tab](img/Screenshot_Kategorien.png)
+*Bearbeiten der Kategorien und Dateiendungen.*
+
+![Einstellungsfenster - Ausschlüsse Tab](img/Screenshot_AusgeschlosseneEndungen.png)
+*Verwaltung der ausgeschlossenen Endungen.*
+
+![Einstellungsfenster - Ignorierte Ordner](img/Screenshot_IgnorierteOrdner.png)
+*Verwaltung der ignorierten Ordner.*
+
+![Datei-Info Dialog](img/ScreenshotInfo.png)
+*Anzeige detaillierter Datei-Informationen.*
 
 ```markdown
