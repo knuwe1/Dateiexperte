@@ -1,6 +1,6 @@
 # Dateiexperte
 
-![Logo](img/logo.jpg) Ein benutzerfreundliches Python-Programm mit grafischer Oberfläche (GUI) zum Sortieren und Verwalten von Dateien auf Ihrem Computer.
+![Logo](img/logo.jpg)   Ein benutzerfreundliches Python-Programm mit grafischer Oberfläche (GUI) zum Sortieren und Verwalten von Dateien auf Ihrem Computer.
 
 ## Beschreibung
 
@@ -41,19 +41,19 @@ Du kannst Übersetzungen verbessern oder neue Sprachen hinzufügen, indem du die
 
 ## Screenshots
 
-![Hauptfenster Dateiexperte](img/Screenshot_Hauptfenster.png)
+![Hauptfenster Dateiexperte](img/Screenshot_Hauptfenster.png)  
 *Das Hauptfenster der Anwendung.*
 
-![Einstellungsfenster - Kategorien Tab](img/Screenshot_Kategorien.png)
+![Einstellungsfenster - Kategorien Tab](img/Screenshot_Kategorien.png)  
 *Bearbeiten der Kategorien und Dateiendungen.*
 
-![Einstellungsfenster - Ausschlüsse Tab](img/Screenshot_AusgeschlosseneEndungen.png)
+![Einstellungsfenster - Ausschlüsse Tab](img/Screenshot_AusgeschlosseneEndungen.png)  
 *Verwaltung der ausgeschlossenen Endungen.*
 
-![Einstellungsfenster - Ignorierte Ordner](img/Screenshot_IgnorierteOrdner.png)
+![Einstellungsfenster - Ignorierte Ordner](img/Screenshot_IgnorierteOrdner.png)  
 *Verwaltung der ignorierten Ordner.*
 
-![Datei-Info Dialog](img/ScreenshotInfo.png)
+![Datei-Info Dialog](img/ScreenshotInfo.png)  
 *Anzeige detaillierter Datei-Informationen.*
 
 ## Installation & Setup
