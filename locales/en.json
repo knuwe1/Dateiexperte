@@ -73,7 +73,6 @@
     "FilesFoundLog": "{count} files found. Starting sorting...",
     "NoFilesFoundLog": "No files found to process.",
     "SkippedExcludedExtLog": "Skipped (excluded extension): {filename}",
-    # Log für übersprungene Ordner ist nicht nötig, da os.walk sie gar nicht erst betritt
     "TargetExistsLog": "Info: Target exists. New name: '{new_name}' in '{target_path}'",
     "CopyErrorLog": "ERROR processing '{filename}' -> '{target_path}': {error}",
     "MoveErrorLog": "ERROR processing '{filename}' -> '{target_path}': {error}", # Gleich wie Copy, Kontext ergibt sich
