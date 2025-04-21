@@ -1,6 +1,6 @@
 # Dateiexperte
 
-![Logo](img/logo.jpg)   Ein benutzerfreundliches Python-Programm mit grafischer Oberfläche (GUI) zum Sortieren und Verwalten von Dateien auf Ihrem Computer.
+![Logo](img/logo.jpg)   <br>Ein benutzerfreundliches Python-Programm mit grafischer Oberfläche (GUI) zum Sortieren und Verwalten von Dateien auf Ihrem Computer.
 
 ## Beschreibung
 
