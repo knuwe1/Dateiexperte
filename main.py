@@ -66,7 +66,8 @@ class FileSorterApp:
         self._ = dummy_get_string # Standardmäßig Dummy
         self.translator = None
         if TRANSLATOR_AVAILABLE:
-            try: sys_lang = locale.getdefaultlocale()[0].split('_')[0].lower()
+            #try: sys_lang = locale.getdefaultlocale()[0].split('_')[0].lower()
+            try: sys_lang = locale.getlocale()[0].split('_')[0].lower()
             except: sys_lang = 'en'
             supported_langs = ['en', 'de', 'fr', 'es', 'pl']; initial_lang = sys_lang if sys_lang in supported_langs else 'en'
             try:
