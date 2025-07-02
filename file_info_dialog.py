@@ -70,7 +70,7 @@ def gather_file_info(file_path: str, translator: Callable) -> Dict[str, str]:
         info[_("FileInfoLabelAccessed", default="Zugriff")] = "N/A"
     
     # Extension
-    _, extension = os.path.splitext(os.path.basename(file_path))
+    basename_part, extension = os.path.splitext(os.path.basename(file_path))
     no_ext_str = _("FileInfoNoExtension", default="(Keine)")
     info[_("FileInfoLabelExtension", default="Dateiendung")] = extension if extension else no_ext_str
     
@@ -112,7 +112,7 @@ def show_file_info_dialog(parent: tk.Widget, translator: Callable) -> None:
     except Exception as e:
         messagebox.showerror(
             _("FileInfoErrorTitle", default="Fehler"),
-            _("FileInfoGenericErrorMsg", default="Fehler beim Abrufen:\n{error}", error=e),
+            _("FileInfoGenericErrorMsg", default="Fehler beim Abrufen:\n{error}", error=str(e)),
             parent=parent
         )
 
@@ -127,10 +127,8 @@ class FileInfoDialog(tk.Toplevel):
         self._ = translator_func
         
         # Get filename for title
-        file_title = info_dict.get(
-            translator_func("FileInfoLabelFilename", default="Dateiname"),
-            translator_func("DefaultFileTitle", default="Datei")
-        )
+        filename_key = translator_func("FileInfoLabelFilename", default="Dateiname")
+        file_title = info_dict.get(filename_key, translator_func("DefaultFileTitle", default="Datei"))
         
         self.title(self._("FileInfoDialogTitle", default="Infos für: {filename}", filename=file_title))
         self.resizable(False, False)
