@@ -128,8 +128,8 @@ class FileInfoDialog(tk.Toplevel):
         
         # Get filename for title
         file_title = info_dict.get(
-            self._("FileInfoLabelFilename", default="Dateiname"),
-            self._("DefaultFileTitle", default="Datei")
+            translator_func("FileInfoLabelFilename", default="Dateiname"),
+            translator_func("DefaultFileTitle", default="Datei")
         )
         
         self.title(self._("FileInfoDialogTitle", default="Infos für: {filename}", filename=file_title))
@@ -175,8 +175,7 @@ class FileInfoDialog(tk.Toplevel):
         ok_button = ttk.Button(
             ok_frame,
             text=self._("OkButton", default="OK"),
-            command=self.destroy,
-            style="Accent.TButton"
+            command=self.destroy
         )
         ok_button.pack()
         ok_button.focus_set()

@@ -65,8 +65,7 @@ class InfoWindow(tk.Toplevel):
         ok_button = ttk.Button(
             info_frame,
             text=self._("OkButton", default="OK"),
-            command=self.destroy,
-            style="Accent.TButton"
+            command=self.destroy
         )
         ok_button.pack(pady=(5, 0))
         ok_button.focus_set()
